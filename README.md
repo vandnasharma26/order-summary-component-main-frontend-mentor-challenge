@@ -32,7 +32,7 @@ desktop-view:
 ### Links
 
 - Solution URL: [Soution](https://github.com/vandnasharma26/order-summary-component-main-frontend-mentor-challenge/tree/main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://vandnasharma26.github.io/order-summary-component-main-frontend-mentor-challenge/)
 
 ## My process
 
