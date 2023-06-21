@@ -31,7 +31,7 @@ desktop-view:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Soution]([https://your-solution-url.com](https://github.com/vandnasharma26/order-summary-component-main-frontend-mentor-challenge/tree/main))
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -44,4 +44,4 @@ desktop-view:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@vandnasharma](https://www.frontendmentor.io/profile/vandnasharma26)https://www.frontendmentor.io/profile/vandnasharma26)
