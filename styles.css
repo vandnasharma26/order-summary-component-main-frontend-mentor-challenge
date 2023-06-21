@@ -1,0 +1,160 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+button, #component {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#component {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 1rem;
+    margin-top: calc(100vh/50);
+    max-height: 50%;
+}
+
+.title {
+    font-weight: 900;
+}
+
+.subtitle {
+    font-weight: 500;
+    width: 70%;
+}
+
+.container {
+    background-color: white;
+    max-width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-content, .cancel {
+    color: hsl(224, 23%, 55%);
+}
+
+.title, .plan-title {
+    color: hsl(223, 47%, 23%);
+}
+
+.annual-plan {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 1em;
+}
+
+.annual-plan-main, .subtitle-main, .container-img {
+    display: flex;
+    justify-content: center;
+}
+
+.icon, .plan-info {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.payment-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-img, .icon {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container-img, .container {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.header-img {
+    object-fit: fill;
+    min-width: 100%;
+    min-height: 100%;
+    flex-shrink: 0;
+}
+
+.change {
+    border: 0px;
+    background-color: inherit;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    padding-right: 1em;
+    height: 50%;
+    align-self: center;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.pay, .cancel {
+    width: 70%;
+    border: initial;
+    padding: 1em;
+    border-radius: 10px;
+    align-self: center;
+    font-weight: 700;
+}
+
+.pay {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: hsl(225, 100%, 94%) 0px 7px 15px 5px;
+   
+}
+
+.cancel {
+    background-color: white;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+}
+
+.pay:hover, .change:hover {
+    opacity: 0.7;
+    transition: 0.25s;
+}
+
+.cancel:hover {
+    color: black;
+    transition: 0.25s;
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 100%;
+    }
+
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+}
